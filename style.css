@@ -5,15 +5,16 @@ body {
 }
 
 .part-one {
-    background-color: #301f0b;
+    background: #3d1f00;
+    background: linear-gradient(180deg, rgba(61, 31, 0, 1) 0%, rgba(94, 58, 34, 1) 51%, rgb(129, 99, 80) 98%);
+    display: block;
+    padding: 0px 100px;
     font-family: Roboto, sans-serif;
-    padding: 0px 150px;
-    
 }
 
 .top {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-bottom: 75px;
     padding-top: 16px;
 }
@@ -23,7 +24,6 @@ body {
     font-size: 30px;
     color: #eec951;
     flex-basis: 50%;
-    align-items: flex-start;
 }
 
 .link {
@@ -40,7 +40,7 @@ body {
 }
 
 .middle {
-    color: #f7eee3;
+    color: #fcf8f3;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -53,8 +53,7 @@ body {
     font-size: 36px;
     font-weight: 900;
     padding: 3px 10px;
-    border: 2px rgb(236, 217, 165) solid;
-    border-radius: 5px;
+    border-bottom: 4px rgb(236, 217, 165) solid;
     color: rgb(241, 213, 136);
 
 }
@@ -77,17 +76,18 @@ body {
 }
 
 #blasphemous {
-    width: 450px;
-    height: 220px;
+    width: 100%;
+    height: 250px;
     border-radius: 5px;
-
+    display: block;
+    flex-basis: 25%;
 }
 
 
 .part-two {
     font-family: Roboto, sans-serif;
     padding-bottom: 100px;
-    background-color: #ebdbc5;
+    background-color: #f3e9dc;
 }
 
 .top-info {
